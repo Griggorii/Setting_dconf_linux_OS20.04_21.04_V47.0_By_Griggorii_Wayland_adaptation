@@ -13,7 +13,7 @@ $ sudo apt update && sudo apt --reinstall install gnome-shell-extensions -y && s
 
 Variant Nemo , Nautilus two options readme instructions fix sh script chmod + x re run
 
-Idea fast gui autorun flag wine playonlinux , steam and all run applications emulators program send $ gsettings set org.gnome.desktop.interface enable-animations false
+Idea fast gui off animations autorun flag wine playonlinux , steam and all run applications emulators program send $ gsettings set org.gnome.desktop.interface enable-animations false
 
 close program wine $ $ gsettings set org.gnome.desktop.interface enable-animations true
 
