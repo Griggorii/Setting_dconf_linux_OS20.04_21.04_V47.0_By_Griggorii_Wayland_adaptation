@@ -1,7 +1,7 @@
 # Setting_dconf_linux_OS20.04_21.04_V47.0_By_Griggorii_Wayland_adaptation
 dconf , gnome , wayland , X11 , PipeWire and Pulse Audio fix , setting global , qt-dbus
 
-Ubuntu 16.04....21.04 all support ubuntu
+Ubuntu 16.04....21.04 all support ubuntu | gnome-shell-40 nemo support proview https://youtu.be/fqCYEX4uOhg
 
 Ubuntu debian
 
