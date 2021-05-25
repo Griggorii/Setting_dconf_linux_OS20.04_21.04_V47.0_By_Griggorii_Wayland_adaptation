@@ -13,6 +13,10 @@ $ sudo apt update && sudo apt --reinstall install gnome-shell-extensions -y && s
 
 Variant Nemo , Nautilus two options readme instructions fix sh script chmod + x re run
 
+Idea autorun flag wine playonlinux , steam and all run applications emulators program send $ gsettings set org.gnome.desktop.interface enable-animations false
+
+close program wine $ $ gsettings set org.gnome.desktop.interface enable-animations true
+
 All gnome-shell + 40 variant https://github.com/Griggorii/Setting_dconf_linux_OS20.04_V46.0_By_Griggorii_Wayland_adaptation/releases/tag/gnome-shell-3.38-40.0
 
 horizontal_adaptation not recommended for 3.36-3.38 lag , horizontal for gnome-shell-40
