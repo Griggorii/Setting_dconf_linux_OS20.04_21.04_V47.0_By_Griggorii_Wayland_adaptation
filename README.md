@@ -12,3 +12,5 @@ $ sudo rm -rf /usr/share/gnome-shell/extensions/user-theme@gnome-shell-extension
 $ sudo apt update && sudo apt --reinstall install gnome-shell-extensions -y && sudo chmod -R 755 /usr/share/themes/Orchis && sudo glib-compile-schemas /usr/share/glib-2.0/schemas
 
 Variant Nemo , Nautilus two options readme instructions fix sh script chmod + x re run
+
+All gnome-shell + 40 variant https://github.com/Griggorii/Setting_dconf_linux_OS20.04_V46.0_By_Griggorii_Wayland_adaptation/releases/tag/gnome-shell-3.38-40.0
