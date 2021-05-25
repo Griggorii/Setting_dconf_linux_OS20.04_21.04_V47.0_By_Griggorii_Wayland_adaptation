@@ -11,4 +11,4 @@ $ sudo rm -rf /usr/share/gnome-shell/extensions/user-theme@gnome-shell-extension
 
 $ sudo apt update && sudo apt --reinstall install gnome-shell-extensions -y && sudo chmod -R 755 /usr/share/themes/Orchis && sudo glib-compile-schemas /usr/share/glib-2.0/schemas
 
-Variant Nemo , Nautilus two options readme instructions
+Variant Nemo , Nautilus two options readme instructions fix sh chmod + x
