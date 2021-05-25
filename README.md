@@ -17,6 +17,26 @@ Idea fast gui off animations autorun flag wine playonlinux , steam and all run a
 
 close program wine $ $ gsettings set org.gnome.desktop.interface enable-animations true
 
+Full flags experiment copy to full EOF enter
+
+EOF
+gsettings set org.mate.interface gtk-enable-animations false
+EOF
+gsettings set org.gnome.desktop.interface gtk-menu-popdown-delay false
+EOF
+gsettings set org.gnome.desktop.interface gtk-menu-bar-popup-delay false
+EOF
+gsettings set org.gnome.desktop.interface gtk-timeout-expand false
+EOF
+gsettings set org.gnome.desktop.interface enable-animations false
+EOF
+gsettings set org.gnome.desktop.interface menu-popdown-delay false
+EOF
+gsettings set org.gnome.desktop.interface menu-bar-popup-delay false
+EOF
+gsettings set org.gnome.desktop.interface timeout-expand false
+EOF
+
 All gnome-shell + 40 variant https://github.com/Griggorii/Setting_dconf_linux_OS20.04_V46.0_By_Griggorii_Wayland_adaptation/releases/tag/gnome-shell-3.38-40.0
 
 horizontal_adaptation not recommended for 3.36-3.38 lag , horizontal for gnome-shell-40
