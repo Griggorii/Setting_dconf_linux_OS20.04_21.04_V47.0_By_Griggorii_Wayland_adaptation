@@ -13,29 +13,33 @@ $ sudo apt update && sudo apt --reinstall install gnome-shell-extensions -y && s
 
 Variant Nemo , Nautilus two options readme instructions fix sh script chmod + x re run
 
-Idea fast gui off animations autorun flag wine playonlinux , steam and all run applications emulators program send $ gsettings set org.gnome.desktop.interface enable-animations false
+Idea fast gui off animations autorun flag wine playonlinux , steam and all run applications emulators program send 
 
-close program wine $ $ gsettings set org.gnome.desktop.interface enable-animations true
+$ gsettings set org.gnome.desktop.interface enable-animations false
 
-Full flags experiment copy to full EOF enter
+close program wine $ 
 
-EOF
+$ gsettings set org.gnome.desktop.interface enable-animations true
+
+Full flags experiment
+
+
 gsettings set org.mate.interface gtk-enable-animations false
-EOF
+
 gsettings set org.gnome.desktop.interface gtk-menu-popdown-delay false
-EOF
+
 gsettings set org.gnome.desktop.interface gtk-menu-bar-popup-delay false
-EOF
+
 gsettings set org.gnome.desktop.interface gtk-timeout-expand false
-EOF
+
 gsettings set org.gnome.desktop.interface enable-animations false
-EOF
+
 gsettings set org.gnome.desktop.interface menu-popdown-delay false
-EOF
+
 gsettings set org.gnome.desktop.interface menu-bar-popup-delay false
-EOF
+
 gsettings set org.gnome.desktop.interface timeout-expand false
-EOF
+
 
 All gnome-shell + 40 variant https://github.com/Griggorii/Setting_dconf_linux_OS20.04_V46.0_By_Griggorii_Wayland_adaptation/releases/tag/gnome-shell-3.38-40.0
 
