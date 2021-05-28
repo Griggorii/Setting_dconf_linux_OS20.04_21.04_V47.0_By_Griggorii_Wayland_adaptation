@@ -17,7 +17,7 @@ Idea fast gui off animations autorun flag wine playonlinux , steam and all run a
 
 $ gsettings set org.gnome.desktop.interface enable-animations false
 
-close program wine $ 
+close program wine , steam proton
 
 $ gsettings set org.gnome.desktop.interface enable-animations true
 
