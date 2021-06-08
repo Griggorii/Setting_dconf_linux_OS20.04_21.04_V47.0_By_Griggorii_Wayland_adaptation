@@ -3,7 +3,7 @@ dconf , gnome , wayland , X11 , PipeWire and Pulse Audio fix , setting global , 
 
 Ubuntu 16.04....21.04 all support ubuntu stable-> gnome-shell-3.36-3.38 | beta-> gnome-shell-40 nemo support proview https://youtu.be/fqCYEX4uOhg
 
-Ubuntu debian
+dconf 07.05.2021 + EPB cpu all perfomance -> saved energy replace parametr "0" to "15" example sudo sh -c "/usr/bin/echo 15 /sys/devices/system/cpu/cpu*/power/energy_perf_bias" <- 15 -> device smartphone , planshet , notebook battery power save
 
 Download theame + icons https://github.com/Griggorii/ubuntu-21.04-hirsute-desktop-amd64-griggorii-zsync.iso/archive/refs/heads/main.zip inpack sudo dpkg -i *.deb
 
