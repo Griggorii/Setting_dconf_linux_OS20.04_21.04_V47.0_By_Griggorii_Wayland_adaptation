@@ -6113,6 +6113,8 @@ sudo sh -c "/usr/bin/echo 0 /sys/module/snd_hda_intel/parameters/power_save"
 EOF
 sudo sh -c "/usr/bin/echo N /sys/module/snd_hda_intel/parameters/power_save_controller"
 EOF
+sudo sh -c "/usr/bin/echo 0 /sys/power/pm_async"
+EOF
 cd ~/
 EOF
 mkdir deamon_pulse_backup_freeze_test
