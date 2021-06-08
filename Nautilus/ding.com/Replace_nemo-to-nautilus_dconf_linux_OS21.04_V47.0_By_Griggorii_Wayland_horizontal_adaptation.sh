@@ -6096,11 +6096,11 @@ sudo sh -c "/usr/bin/cpupower frequency-set -g governor"
 EOF
 sudo sh -c "/usr/bin/echo 0 /sys/devices/system/cpu/cpu*/power/energy_perf_bias"
 EOF
-sudo sh -c "/usr/bin/echo 0 /sys/module/snd_hda_intel/parameters/power_save"
+sudo sh -c "/usr/bin/echo 0 > /sys/module/snd_hda_intel/parameters/power_save"
 EOF
-sudo sh -c "/usr/bin/echo N /sys/module/snd_hda_intel/parameters/power_save_controller"
+sudo sh -c "/usr/bin/echo N > /sys/module/snd_hda_intel/parameters/power_save_controller"
 EOF
-sudo sh -c "/usr/bin/echo 0 /sys/power/pm_async"
+sudo sh -c "/usr/bin/echo 0 > /sys/power/pm_async"
 EOF
 cd ~/
 EOF
