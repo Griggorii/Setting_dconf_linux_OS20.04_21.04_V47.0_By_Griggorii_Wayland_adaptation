@@ -8,4 +8,6 @@
                                                                                            
 $ sudo apt install nemo -y
 
+$ chmod -R a+rwx Setting_dconf_linux_OS21.04_V47.0_By_Griggorii_Wayland_vertical_adaptation.sh
+
 $ ./Setting_dconf_linux_OS21.04_V47.0_By_Griggorii_Wayland_vertical_adaptation.sh
