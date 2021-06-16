@@ -42,6 +42,7 @@ gsettings set org.gnome.desktop.interface menu-bar-popup-delay false
 
 gsettings set org.gnome.desktop.interface timeout-expand false
 
+Accelerated-video Chromium/chrome chrome://flags#enable-accelerated-video-decode
 
 All gnome-shell + 40 variant https://github.com/Griggorii/Setting_dconf_linux_OS20.04_V46.0_By_Griggorii_Wayland_adaptation/releases/tag/gnome-shell-3.38-40.0
 
