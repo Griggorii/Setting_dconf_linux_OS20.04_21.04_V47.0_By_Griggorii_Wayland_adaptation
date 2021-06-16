@@ -13,13 +13,12 @@ EOF
 clear
 EOF
 clear &&
-EOF
 awk 'BEGIN{
-    s="/\\/\\/\\/\\/\\"; s=s s s s s s s s;
-    for (colnum = 0; colnum<77; colnum++) {
-        r = 255-(colnum*255/76);
-        g = (colnum*510/76);
-        b = (colnum*255/76);
+    s="/\\/\\/\\/\\/\\/\\"; s=s s s s s s s s;
+    for (colnum = 0; colnum<80; colnum++) {
+        r = 255-(colnum*255/79);
+        g = (colnum*510/79);
+        b = (colnum*255/79);
         if (g>255) g = 510-g;
         printf "\033[48;2;%d;%d;%dm", r,g,b;
         printf "\033[38;2;%d;%d;%dm", 255-r,255-g,255-b;
@@ -28,11 +27,11 @@ awk 'BEGIN{
     printf "\n";
 }'
 awk 'BEGIN{
-    s="/\\/\\/\\/\\/\\"; s=s s s s s s s s;
-    for (colnum = 0; colnum<77; colnum++) {
-        r = 255-(colnum*255/76);
-        g = (colnum*510/76);
-        b = (colnum*255/76);
+    s="/\\/\\/\\/\\/\\/\\"; s=s s s s s s s s;
+    for (colnum = 0; colnum<80; colnum++) {
+        r = 255-(colnum*255/79);
+        g = (colnum*510/79);
+        b = (colnum*255/79);
         if (g>255) g = 510-g;
         printf "\033[48;2;%d;%d;%dm", s,r,g,b;
         printf "\033[38;2;%d;%d;%dm", 255-r,255-g,255-b;
@@ -62,11 +61,11 @@ COLOR_LIGHTPURPLE="\e[1;35m"
 COLOR_YELLOW="\e[1;33m"
 COLOR_WHITE="\e[1;37m"
 COLOR_NONE="\e[0m" && echo -e $COLOR_CYAN"________________________________________________________________________________                                                                         " && ENDCOLOR="\033[0m" && COLOR_WHITE="\e[1;37m" COLOR_GREEN="\e[0;32m" COLOR_RED="\e[0;31m" COLOR_CYAN="\e[0;36m" COLOR_YELLOW="\e[1;33m" && echo -e $COLOR_RED"RUS:$COLOR_GREENИскусственный интеллект: $COLOR_CYANначинает сохранение оригинальных настроек подождите пожалуйста 20 секунд оригинальные настройки обои , темы и иконки $COLOR_YELLOW backup-theme-icon-restore.sh $COLOR_CYAN и полные настройки backup $COLOR_YELLOW dconf-settings-original-restore.sh $COLOR_CYAN далее введите пароль от sudo                                                      " && ENDCOLOR="\033[0m" && COLOR_WHITE="\e[1;37m" COLOR_RED="\e[0;31m" COLOR_CYAN="\e[0;36m" COLOR_YELLOW="\e[1;33m" && echo -e $COLOR_CYAN"ENG:$COLOR_RED Artificial intelligence: $COLOR_NONE starts saving original settings please wait 20 seconds wallpaper , themes and icons $COLOR_BLACK backup-theme-icon-restore.sh $COLOR_WHITE and full setting backup $COLOR_BLACK dconf-settings-original-restore.sh $COLOR_NONE next please then enter your sudo password                                                                          " && echo -e $COLOR_PURPLE"________________________________________________________________________________                                                                         " && awk 'BEGIN{
-    s="/\\/\\/\\/\\/\\"; s=s s s s s s s s;
-    for (colnum = 0; colnum<77; colnum++) {
-        r = 255-(colnum*255/76);
-        g = (colnum*510/76);
-        b = (colnum*255/76);
+    s="/\\/\\/\\/\\/\\/\\"; s=s s s s s s s s;
+    for (colnum = 0; colnum<80; colnum++) {
+        r = 255-(colnum*255/79);
+        g = (colnum*510/79);
+        b = (colnum*255/79);
         if (g>255) g = 510-g;
         printf "\033[48;2;%d;%d;%dm", r,g,a;
         printf "\033[38;2;%d;%d;%dm", 255-r,255-g,255-b;
@@ -75,11 +74,11 @@ COLOR_NONE="\e[0m" && echo -e $COLOR_CYAN"______________________________________
     printf "\n";
 }'
 awk 'BEGIN{
-    s="/\\/\\/\\/\\/\\"; s=s s s s s s s s;
-    for (colnum = 0; colnum<77; colnum++) {
-        r = 255-(colnum*255/76);
-        g = (colnum*510/76);
-        b = (colnum*255/76);
+    s="/\\/\\/\\/\\/\\/\\"; s=s s s s s s s s;
+    for (colnum = 0; colnum<80; colnum++) {
+        r = 255-(colnum*255/79);
+        g = (colnum*510/79);
+        b = (colnum*255/79);
         if (g>255) g = 510-g;
         printf "\033[48;2;%d;%d;%dm", h,l,s;
         printf "\033[38;2;%d;%d;%dm", 255-r,255-g,255-b;
