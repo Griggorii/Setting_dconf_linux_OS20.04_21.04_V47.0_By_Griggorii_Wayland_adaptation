@@ -48,4 +48,4 @@ All gnome-shell + 40 variant https://github.com/Griggorii/Setting_dconf_linux_OS
 
 horizontal_adaptation not recommended for 3.36-3.38 lag , horizontal for gnome-shell-40
 
-Trolltech.conf my setting special os 20.04 dconf import setting color old windows xp
+Trolltech.conf my setting special os 20.04 dconf import setting color old windows xp: special os https://youtu.be/YaXbSzQLuFk https://youtu.be/MVhZ_QZGxaQ
