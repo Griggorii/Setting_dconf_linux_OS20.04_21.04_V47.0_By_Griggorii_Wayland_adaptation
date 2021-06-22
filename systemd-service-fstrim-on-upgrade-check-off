@@ -8,7 +8,9 @@
 
 # systemctl list-units --type service -all
 
-# clear &&
+# clear
+
+# aplay -L
 
 GREEN='\[\e[033[1;32m\]'
 RED='\[\e[033[0;31m\]'
@@ -51,6 +53,14 @@ PS1="$red\u$nc@$red\H$nc:$CYAN\w$nc\\n$red#$nc "
 PS1="$PURPLE\u$GREEN@$COLOR_LIGHTBLUE\H$COLOR_DARKGRAY:
 
 $COLOR_GREEN\w$COLOR_GREEN\n$red\$$COLOR_WHITE "
+
+sudo service alsa-state.service start
+   
+sudo systemctl enable alsa-state.service
+
+sudo service alsa-restore.service start
+   
+sudo systemctl enable alsa-restore.service
 
 sudo service systemd-user-sessions.service start
    
